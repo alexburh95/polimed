@@ -1,0 +1,900 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oranienbaum&display=swap');
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    color: #000000;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+
+header .row{
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+h1{
+    font-family: 'Oranienbaum', serif;
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 span{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+letter-spacing: initial;
+}
+
+.header_info{
+    font-style: normal;
+font-weight: 300;
+font-size: 15px;
+margin: 0
+}
+
+header button{
+    background: linear-gradient(0deg, #FF8E00, #FF8E00), #C4C4C4;
+border-radius: 6px;
+font-weight: bold;
+font-size: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border: none;
+outline: 0;
+width: 205px;
+height: 40px;
+color: #FFFFFF;
+margin-bottom: 10%;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripe{
+    background: rgba(1, 117, 189, 0.1);
+    height: 15px;
+    margin: 22px 0;
+}
+
+.main_menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main_menu li, .main_menu  a{
+    font-family: 'Oranienbaum', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+margin-bottom: 5px;
+color: #000000
+
+}
+.main_menu  a:hover{
+    text-decoration: none;
+}
+.swiper-container {
+    width: 100%;
+    height: 230px;
+  }
+.one{
+    background: url(../img/fon1.png) no-repeat;
+    
+}
+.two{
+    background: url(../img/fon2.png) no-repeat;
+    
+}
+.three{
+    background: url(../img/fon3.png) no-repeat;
+    
+}
+.four{
+    background: url(../img/fon4.png) no-repeat
+}
+.five{
+    background: url(../img/fon5.png) no-repeat
+}
+.swiper-slide{
+    border-radius: 6px;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+} 
+
+.slider .swiper-pagination-bullet {
+    background-color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.95);
+    height: 19px;
+width: 19px;
+
+
+}
+
+.swiper_title{
+    font-weight: bold;
+font-size: 54px;
+line-height: 65px;
+
+color: #FFFFFF;
+margin-left: 43px;
+margin-top: 15px;
+z-index: 2;
+}
+
+.swiper_description{
+    font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+z-index: 1;
+color: #FFFFFF;
+max-width: 300px;
+margin-left: 43px;
+margin-top: 40px;
+}
+
+.swiper_description_container{
+    background: rgba(1, 117, 189, 0.3);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 108px;
+    position: absolute;
+    left:0;
+    top: 52px;
+    z-index:-2;
+    border-radius:6px;
+}
+
+.swiper-slide a{
+    font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 6px;
+color: #FFFFFF;
+width: 156px;
+height:32px;
+margin-left: 43px;
+margin-top: 90px;
+}
+.about_center{
+  padding-top: 70px;
+}
+.about_center_title{
+     font-family: 'Oranienbaum', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+}
+
+.about_center_description{
+    font-size: 24px;
+   
+}
+.about_center h3{
+    font-weight: 500;
+font-size: 26px;
+text-align: center;
+margin-top: 24px;
+}
+.row.znaki{
+    margin-top: 50px;
+    align-items: center;
+}
+.row.gallery{
+    margin-top: 100px;
+}
+.gallery img{
+    margin-bottom: 20px;
+}
+
+.our_doctors{
+    background: rgba(1, 117, 189, 0.1);
+    margin-top: 42px;
+    padding-bottom: 1px;
+}
+.doctors_title{
+    font-family: 'Oranienbaum', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+padding-top: 28px;
+margin-bottom: 90px;
+}
+
+.our_doctors h4{
+    font-weight: 500;
+font-size: 20px;
+}
+
+.our_doctors p{
+    font-weight: 300;
+font-size: 16px;
+}
+
+.doctor_link{
+    font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #17AE49;
+border: 2px solid #17AE49;
+box-sizing: border-box;
+border-radius: 6px;
+width: 205px;
+height: 40px;
+
+
+margin: 50px auto;
+}
+
+.header_info a{
+color: #0175BD;
+}
+
+.popular_items h4{
+    font-weight: 500;
+font-size: 20px;
+margin-top: 17px;
+}
+
+.popular_items p{
+    font-weight: 300;
+font-size: 16px;
+}
+
+.found_us{
+    background: #E6F2F9;
+}
+.seo_text span{
+ 
+    font-weight: 700;
+}
+.seo_text{
+    font-weight: 300;
+    font-size: 20px;
+    color:  #575757;
+}
+
+.found_us .doctors_title{
+    margin-bottom: 30px;
+}
+.found_us{
+    padding-bottom: 58px;
+}
+.map{
+    width:100%;
+    margin-top: 25px;
+}
+
+.relative{
+    position: relative;
+}
+
+.map_button{
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 107px;
+    height:107px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.map_button:hover{
+border: 4px solid #FF8E00;
+
+transform: scale(1.1);
+cursor: pointer;
+
+}
+
+.hidden_img1{
+position: absolute;
+top: 60%;
+left: 10%;
+}
+.hidden_img2{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .tabs_question{
+       color: #17AE49;
+       border: 2px solid #17AE49;
+border-radius: 8px;
+padding: 20px 0;
+padding-left: 35px;
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 25px;
+
+
+    }
+
+    
+
+    .tabs_question:hover{
+cursor: pointer;
+border: 2px solid #FF8E00;
+color: #FF8E00;
+    }
+
+.hidden_description{
+    font-weight: 200;
+    font-size: 24px;
+    padding-left: 35px;
+}
+
+.news{
+    background: #E6F2F9;
+    padding-bottom: 1px;
+}
+
+.feedback h2, .news h2{
+    margin-bottom: 50px;
+}
+
+.news_container{
+    padding: 18px 0;
+    margin: 0;
+}
+.news_container::after{
+    content: "";
+    background: rgba(1, 117, 189, 0.3);
+    width: 500px;
+    height: 1px;
+    position: absolute;
+}
+.news_container cite
+{
+    font-style: normal;
+    font-weight: bold;
+font-size: 20px;
+
+
+color: rgba(82, 82, 82, 0.75);
+}
+
+.news_container p{
+ 
+font-size: 20px;
+line-height: 24px;
+
+/* Обозначение */
+
+color: #525252;
+}
+.section_description{
+    font-weight: 300;
+font-size: 24px;
+}
+
+.licens_row{
+    margin-top: 85px;
+}
+.licenses{
+    padding-bottom: 170px;
+}
+.licenses img{
+    margin-bottom: 33px;
+}
+
+.licens_row img{
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+.contact_form{
+    padding: 60px 0;
+   background: #0175BD;
+}
+
+.contact_form .about_center_title{
+    color: #ffffff;
+}
+
+.contact_form label{
+    font-weight: 200;
+font-size: 32px;
+display: flex;
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.contact_form input{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 6px;
+width: 80%;
+height:50px;
+}
+
+.checbox_row{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+    width: inherit
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 50px;
+    font-size: 24px;
+}
+.checkbox label:hover{
+    cursor: pointer;
+}
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+    
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+    height: 31px;
+    width: 31px;
+    
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 5px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 18px;
+    width: 17px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 7px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+
+.contact_form button{
+    background: #FF8E00;
+border-radius: 6px;
+width: 380px;
+height:75px;
+
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+outline: none;
+margin-top:85px;
+color: #FFFFFF;
+border: none;
+
+}
+
+.contact_form button:disabled{
+    background-color: grey;
+}
+.contact_form{
+    margin-bottom: 60px;
+}
+footer{
+    background: #0175BD;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.inst_container img{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   margin-bottom:40px;
+}
+
+.footer_menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_menu li{
+    font-weight: 200;
+font-size: 24px;
+color: #ffffff
+}
+
+.job_openings{
+    font-weight: bold;
+font-size: 32px;
+color: #ffffff;
+
+margin: 30px 0;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.job_openings:hover{
+    text-decoration: none;
+}
+
+.polymed{
+margin: 27px 0;
+color: #ffffff;
+font-weight: 200;
+font-size: 16px;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+footer .header_info{
+    color: #ffffff
+}
+
+footer .header_info a{
+    color: #ffffff;
+    font-weight:700;
+}
+
+.polz{
+    font-weight: 200;
+font-size: 16px;
+display: flex;
+color: #ffffff;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-decoration-line: underline;
+}
+footer .row{
+    align-items: flex-end;
+}
+
+footer span{
+    font-weight: 200;
+font-size: 16px;
+color: #ffffff;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+footer span a{
+    font-weight:700;background: #FFFFFF;
+    border-radius: 7px;
+    color: #0175BD;
+    padding: 5px;
+}
+
+.certificates_content{
+    margin-top:58px;
+}
+.certificates_content h2{
+    font-size: 56px;
+display: flex;
+align-items: center;
+font-family: 'Oranienbaum', serif;
+color: #000000;
+
+}
+
+.certificates_content p{
+    font-style: normal;
+font-weight: 300;
+font-size: 16px;
+}
+
+.sign_up{
+    background: linear-gradient(0deg, #FF8E00, #FF8E00), #C4C4C4;
+border-radius: 6px;
+width: 205px;
+height: 40px;
+font-weight: bold;
+font-size: 20px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+outline: none;
+margin: 0 auto;
+margin: 90px auto;
+
+color: #FFFFFF;
+
+}
+.ab{
+    margin-bottom: 100px;
+}
+
+.jobs{
+    font-style: normal;
+font-weight: 300;
+font-size: 24px;
+}
+
+.jobs span{
+    font-weight: 700
+}
+.vacance{
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.doctors_row .doctor_link{
+margin-top:20px
+}
+
+.doctors_text{
+    font-size: 16px; 
+}
+
+.square{
+    background-color: #ffffff;
+    width: 75px;
+    height: 75px;
+    border: 8px solid #0175BD;
+box-sizing: border-box;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.services{
+    margin-top: 70px;
+}
+.service_title{
+    font-weight: bold;
+font-size: 32px;
+color: #0175BD;
+margin-left: 12px;
+}
+.serve_container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.serve_container:hover{
+    transition-timing-function: linear;
+    transition-duration: 400ms;
+    background: #0175BD;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.serve_container:hover .square{
+    background: #0175BD;
+    transition-timing-function: linear;
+    transition-duration: 400ms;
+}
+
+.serve_container:hover .service_title{
+    color: #ffffff;
+    transition-timing-function: linear;
+    transition-duration: 400ms;
+}
+
+.services a:hover{
+    text-decoration: none;
+}
+
+.service_description{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-weight: 200;
+font-size: 20px;
+}
+
+.serve_title{
+    font-family: "Oranienbaum";
+    font-style: normal;
+font-weight: normal;
+font-size: 56px;
+margin-bottom: 35px;
+}
+
+.serve_price{
+    margin-top: 45px;
+}
+
+.category_title{
+    font-weight: bold;
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+.price_description{
+    font-weight: 200;
+font-size: 20px;
+margin: 0
+}
+
+.price{
+    background: #17AE49;
+border-radius: 8px;
+height:40px;
+width: 245px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+.serve_price .row{
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.serve_price .col-lg-4{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.price::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background: #17AE49;
+border-radius: 8px;
+width: 120px;
+}
+
+.serve_description{
+    margin-top: 60px;
+    font-weight: 200;
+font-size: 20px;
+}
+
+.serve_doctors{
+    margin-top: 100px;
+
+}
+
+.serve_doctors_title{
+    font-weight: normal;
+font-size: 56px;
+font-family: 'Oranienbaum', serif;
+margin-bottom:95px;
+}
+
+.serve_doctors h3{
+    font-weight: normal;
+font-size: 56px;
+font-family: 'Oranienbaum', serif;
+margin-bottom:15px;
+}
+
+.serve_doctors p{
+    font-weight: 200;
+    font-size: 24px;
+    margin: 0;
+}
+
+.serve_doctors p span{
+    font-weight: 700;
+    display: block;
+}
+
+.serve_doctors .row{
+    margin-bottom:50px
+}
+
+.doctor_name{
+    font-family: 'Oranienbaum', serif;
+    font-weight: normal;
+font-size: 40px;
+}
+
+.doctor_description{
+    font-weight: 200;
+    font-size: 24px;
+    margin: 0;
+}
+.doctor_description span{
+    font-weight: 700;
+    display: block;
+}
+
+.doc_ava{
+    max-width:100%;
+}
+.doc_info{
+    margin-top: 52px;
+    padding-bottom: 160px;
+}
+.doc_info p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.doc_info p span{
+    font-weight: 700;
+    display: block;
+}
+
+.news{
+    margin-top: 51px;
+}
+.new_container{
+    
+background: #E6F2F9;
+margin-bottom: 25px;
+width: 100%;
+}
