@@ -1015,4 +1015,7 @@ right: 30%;
     .header_info{
         font-size: 13px;
     }
+    .feedback .os_popup {
+        right: 10%;
+    }
 }
