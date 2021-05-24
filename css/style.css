@@ -1006,3 +1006,13 @@ right: 30%;
 .slider li:hover{
     color: #0175BD
 }
+
+@media only screen and (max-width:1200px){ 
+    .about_center img{
+        max-width: 100%;
+    }
+
+    .header_info{
+        font-size: 13px;
+    }
+}
