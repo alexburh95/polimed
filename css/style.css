@@ -889,7 +889,7 @@ font-size: 40px;
     display: block;
 }
 
-.news{
+.news_single{
     margin-top: 51px;
 }
 .new_container{
@@ -897,4 +897,112 @@ font-size: 40px;
 background: #E6F2F9;
 margin-bottom: 25px;
 width: 100%;
+padding: 26px 0;
+padding-left: 45px;
+margin-bottom: 25px;
+}
+
+.news_date{
+    font-weight: 200;
+font-size: 24px;
+margin: 0
+}
+
+.news_single_title{
+    font-weight: 200;
+font-size: 40px;
+margin: 0;
+}
+
+.news_single_description{
+    font-weight: 200;
+font-size: 16px;
+margin-top: 20px;
+}
+
+.new_container .row{
+    align-items:baseline;
+}
+
+.os_popup{
+    width: 780px;
+    background: #ffffff;
+    padding: 35px 0;
+    
+    position: absolute;
+    background: #FFFFFF;
+border: 3px solid #0175BD;
+box-sizing: border-box;
+border-radius: 30px;
+z-index: 999;
+top: 0;
+right: 40%;
+
+}
+.os_popup_container{
+    padding-left: 75px;
+}
+
+.zapis_titile{
+    font-size: 40px;
+    font-family: 'Oranienbaum', serif;
+   color: #0175BD;
+
+}
+.krest{
+    margin-left: 35px;
+}
+.krest:hover{
+    cursor: pointer;
+}
+
+.popup_row{
+    display: flex;
+    align-items: center;
+}
+
+.os_popup .contact_form{
+    padding: 0;
+    background: #ffffff;
+}
+
+.os_popup .contact_form label{
+    color: #0175BD;
+}
+
+.os_popup .contact_form input{
+    
+background: rgba(1, 117, 189, 0.1);
+border: 1px solid #0175BD;
+box-sizing: border-box;
+border-radius: 6px;
+}
+
+.os_popup .contact_form label::before{
+   border: 4px solid #0175BD
+}
+.os_popup .contact_form button{
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.feedback .os_popup{
+right: 30%;
+}
+
+.feedback .os_popup h2{
+    margin: 0;
+}
+
+
+.feedback button{
+     background: none
+}
+
+.slider li:hover{
+    color: #0175BD
 }

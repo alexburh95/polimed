@@ -39,10 +39,45 @@
 
           <h1>Полимед<span>Медицинский центр в Подольске</span></h1>
         </div>
-        <div class="col-lg-4 middle"><button type="submit">Записаться</button></div>
+        <div class="col-lg-4 middle"><button type="submit">Записаться</button>
+        
+        <div class="os_popup hidden">
+          <form action="" method="post" class="contact_form header_form">
+   <div class="os_popup_container">
+            <div class="popup_row"><h2 class="zapis_titile">Мы вам перезвоним по телефону</h2> <img class="krest" src="img/krest.svg" alt="Крестик"></div>
+        
+            
+              <label for="name">Ваше имя</label>
+                  <input type="text" name="name" placeholder="" required="">
+    
+                
+    
+                  <label for="phone">Телефон</label>
+                  <input type="tel" required name="phone" placeholder="">
+    
+                  <label for="question">Тема обращения</label>
+                  <input type="text" required name="question" placeholder="">
+    
+                  <div class="checbox_row">
+                    <div class="checkbox">
+                      <input type="checkbox" required="" checked="" id="checkbox_1">
+                      <label for="checkbox_1">Согласие на обработку персональных данных</label>
+                    </div>
+                  </div>
+   </div>
+  
+                <button type="submit">Отправить</button>
+             
+            
+         
+  
+  
+  
+          </form>
+        </div></div>
       </div>
     </div>
-    <section class="stripe"></section>
+
   </header>
 
   <main>
@@ -365,7 +400,7 @@
       </div>
 
     </section>
-    <section class="feedback">
+    <section class="feedback relative">
       <div class="container">
         <h2 class="doctors_title">Наши отзывы</h2>
 
@@ -393,8 +428,46 @@
             осанка, появился пресс. И самое главное, пропал сильный изгиб поясничного отдела, который меня очень
             беспокоил.</p>
         </blockquote>
+        
+        <button type="submit" class="doctor_link">Оставить отзыв</button>
+        <div class="os_popup hidden">
+          <form action="" method="post" class="contact_form feedback_form">
+   <div class="os_popup_container">
+            <div class="popup_row"><h2 class="zapis_titile">Спасибо за обратную связь!</h2> <img class="krest" src="img/krest.svg" alt="Крестик"></div>
+        
+            
+              <label for="name">Ваше имя</label>
+                  <input type="text" name="name" placeholder="" required="">
+    
+                
+    
+                  <label for="phone">Телефон</label>
+                  <input type="tel" name="phone" placeholder="">
 
-        <a class="doctor_link" href="#">Оставить отзыв</a>
+                  
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="" required>
+    
+                  <label for="question">Ваш отзыв</label>
+                  <input type="text" required name="question" placeholder="">
+    
+                  <div class="checbox_row">
+                    <div class="checkbox">
+                      <input type="checkbox" required="" checked="" id="checkbox_3">
+                      <label for="checkbox_3">Согласие на обработку персональных данных</label>
+                    </div>
+                  </div>
+   </div>
+  
+                <button type="submit">Отправить</button>
+             
+            
+         
+  
+  
+  
+          </form>
+        </div>
       </div>
 
     </section>
@@ -428,7 +501,7 @@
     <section class="contact_form">
       <div class="container">
         <h2 class="about_center_title">Остались вопросы? Напишите нам!</h2>
-        <form action="" method="post">
+        <form action="" method="post" class="footer_form">
           <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10"> <label for="name">Ваше имя</label>
@@ -445,8 +518,8 @@
 
               <div class="checbox_row">
                 <div class="checkbox">
-                  <input type="checkbox" required checked id="checkbox_1">
-                  <label for="checkbox_1">Согласие на обработку персональных данных</label>
+                  <input type="checkbox" required checked id="checkbox_2">
+                  <label for="checkbox_2">Согласие на обработку персональных данных</label>
                 </div>
               </div>
 
@@ -507,6 +580,7 @@
   <script src="js/scripts.js"></script>
   <script src="js/map_button.js"></script>
   <script src="js/accordeon.js"> </script>
+  <script src= "js/openPopup.js"></script>
 </body>
 
 </html>
