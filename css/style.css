@@ -498,12 +498,12 @@ height:50px;
 .checkbox label::after {
     height: 18px;
     width: 17px;
-    border-left: 2px solid;
-    border-bottom: 2px solid;
-    
-    transform: rotate(-45deg);
-    
-    left: 4px;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    transform: rotate(
+-45deg
+);
+    left: 7px;
     top: 7px;
 }
 
@@ -995,16 +995,18 @@ main{
 
 .feedback .os_popup{
 right: 30%;
+top: 30%;
 }
 
 .feedback .os_popup h2{
     margin: 0;
 }
 
-
-.feedback button{
-     background: none
+.feedback .doctor_link{
+    background: none;
 }
+
+
 
 .slider li:hover{
     color: #0175BD
@@ -1027,6 +1029,25 @@ right: 30%;
 }
 
 @media only screen and (max-width:992px){ 
+
+    .back{
+        border: 1px solid #FF8E00;
+box-sizing: border-box;
+border-radius: 6px;
+width: 210px;
+height: 40px;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+margin-top:45px;
+color: #FF8E00;
+background: #ffffff;
+    }
     .header_info {
         font-size: 20px;
         text-align: center;
@@ -1038,6 +1059,7 @@ right: 30%;
         top: 0;
         width: 100%;
         left: 0;
+        padding-bottom: 40px;
     }
 
     .mob_menu .container .row{
@@ -1070,5 +1092,9 @@ margin-right: 30px;
  }
  .mob_header{
      display: block;
+ }
+
+ .row.znaki{
+     align-items: flex-end;
  }
 }
