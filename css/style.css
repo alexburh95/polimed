@@ -1171,6 +1171,6 @@ margin-right: 30px;
     margin-top: 40px;
 }
 .news_container::after {
-    width: 100%;
+    width: 95%;
 }
 }
