@@ -1045,6 +1045,14 @@ top: 30%;
 
 @media only screen and (max-width:992px){ 
 
+    .mob_header a{
+        display: contents;
+    }
+
+    .doctor_link {
+        width: 100%;
+    }
+
     header .os_popup{
         right: 5%;
         width:90%;
@@ -1191,7 +1199,57 @@ margin-right: 30px;
 }
 }
 
-@media only screen and (max-width:440px){ 
+@media only screen and (max-width:440px){
+    .doc_info p{
+        font-size: 20px;
+    }
+    .doctor_description{
+        font-size:16px;
+    }
+    .doctor_name{
+        font-size: 24px;
+        margin-bottom: 18px; 
+    }
+    .serve_description{
+        font-size: 16px;
+    }
+    .serve_doctors_title{
+        font-size: 24px;
+    }
+    .category_title{
+        font-size: 24px;
+    }
+    .serve_title{
+        font-size: 24px;
+    }
+
+    .serve_doctors h3{
+        font-size:16px
+    }
+    .serve_doctors p {
+        font-size:16px;
+    }
+    .price 
+    {
+margin: 0 auto;
+margin-bottom:35px;
+    }
+    .price_description {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .price::before {
+        display: none;
+    }
+    .new_container{
+        padding: 0;
+    }
+    .news_date{
+        text-align: center;
+    }
+    .news_single_title{
+        text-align: center;
+    } 
 
     .os_popup_container {
      

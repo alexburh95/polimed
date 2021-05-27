@@ -24,25 +24,116 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <p class="header_info">
-            <a href="tel:+79773648908">8 (977) 364-89-08</a><br>
-            <a href="tel:+74967548286">8 (4967) 54-82-86</a><br>
-            Режим работы: <br>
-            Пн-сб с 9:00 до 20:00<br>
-            г. Подольск, ул. Большая Серпуховская, д. 47
-          </p>
-        </div>
-        <div class="col-lg-4 center"><a href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+    <section class="desc_head">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="header_info">
+              <a href="tel:+79773648908">8 (977) 364-89-08</a><br>
+              <a href="tel:+74967548286">8 (4967) 54-82-86</a><br>
+              Режим работы: <br>
+              Пн-сб с 9:00 до 20:00<br>
+              г. Подольск, ул. Большая Серпуховская, д. 47
+            </p>
+          </div>
+          <div class="col-lg-4 center"><a href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
 
-          <h1>Полимед<span>Медицинский центр в Подольске</span></h1>
+            <h1>Полимед<span>Медицинский центр в Подольске</span></h1>
+          </div>
+          <div class="col-lg-4 middle"><button type="submit">Записаться</button>
+
+            
+          </div>
         </div>
-        <div class="col-lg-4 middle"><button type="submit">Записаться</button></div>
       </div>
+      <section class="stripe"></section>
+    </section>
+    <div class="os_popup hidden ">
+      <form action="" method="post" class="contact_form header_form">
+        <div class="os_popup_container">
+          <div class="popup_row">
+            <h2 class="zapis_titile">Мы вам перезвоним по телефону</h2> <img class="krest" src="img/krest.svg"
+              alt="Крестик">
+          </div>
+
+
+          <label for="name">Ваше имя</label>
+          <input type="text" name="name" placeholder="" required="">
+
+
+
+          <label for="phone">Телефон</label>
+          <input type="tel" required name="phone" placeholder="">
+
+          <label for="question">Тема обращения</label>
+          <input type="text" required name="question" placeholder="">
+
+          <div class="checbox_row">
+            <div class="checkbox">
+              <input type="checkbox" required="" checked="" id="checkbox_1">
+              <label for="checkbox_1">Согласие на обработку персональных данных</label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit">Отправить</button>
+
+
+
+
+
+
+      </form>
     </div>
-    <section class="stripe"></section>
+    <section class="mob_header">
+      <div class="container">
+        <div class="row">
+          <button class="mob_header_btn">Меню</button> <a href="index.html"><img src="img/mob_logo.png" alt="Мобильное лого"></a>
+        </div>
+
+        <div class="mob_menu hidden">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <ul class="main_menu">
+                  <a href="services.html">
+                    <li>Услуги</li>
+                  </a>
+                  <a href="certificates.html">
+                    <li>Справки</li>
+                  </a>
+                  <a href="aboniments.html">
+                    <li>Абонементы</li>
+                  </a>
+                  <a href="doctors.html">
+                    <li>Сотрудники</li>
+                  </a>
+                  <a href="">
+                    <li>COVID-19</li>
+                  </a>
+                  <a href="news.html">
+                    <li>Новости</li>
+                  </a>
+
+                </ul>
+
+              </div>
+              <div class="col-6"><button class="mob_zapis" type="submit">Записаться</button></div>
+            </div>
+            <p class="header_info">
+              <a href="tel:+79773648908">8 (977) 364-89-08</a><br>
+              <a href="tel:+74967548286">8 (4967) 54-82-86</a><br>
+              Режим работы: <br>
+              Пн-сб с 9:00 до 20:00<br>
+              г. Подольск, ул. Большая Серпуховская, д. 47
+            </p>
+
+            <button class="back">Назад</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
 
   <main>
@@ -184,7 +275,7 @@
     </div>
   </footer>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="js/openPopup.js"></script>
   <script src="js/chek.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/map_button.js"></script>
