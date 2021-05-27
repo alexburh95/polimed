@@ -296,7 +296,14 @@ font-size: 16px;
 .relative{
     position: relative;
 }
+header{
+    position: relative;
+}
 
+header .os_popup{
+    top: 50%;
+   right: 30%;
+}
 .map_button{
     position: absolute;
     top: 50%;
@@ -1037,6 +1044,11 @@ top: 30%;
 }
 
 @media only screen and (max-width:992px){ 
+
+    header .os_popup{
+        right: 5%;
+        width:90%;
+    }
     .licenses .row{
         display: none
     }
@@ -1108,7 +1120,7 @@ background: #ffffff;
     .mob_menu{
         background: #ffffff;
         position: absolute;
-        z-index: 9999999;
+        z-index: 7;
         top: 0;
         width: 100%;
         left: 0;
@@ -1180,6 +1192,11 @@ margin-right: 30px;
 }
 
 @media only screen and (max-width:440px){ 
+
+    .os_popup_container {
+     
+        PADDING: 0 25PX;
+    }
 
     .footer_menu li {
         font-size: 14px;

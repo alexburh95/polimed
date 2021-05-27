@@ -13,11 +13,7 @@ button.addEventListener('click',() =>{
 krest.addEventListener('click',() =>{
     popup.classList.add('hidden')
 })
-popupButton.addEventListener('click',() =>{
 
- 
- 
-})
 
 
 }
@@ -38,4 +34,18 @@ mob_mebu_button.addEventListener('click',() =>{
 
 close_menu_popup.addEventListener('click',() =>{
     mob_menu_popup.classList.add('hidden')
+})
+
+const container = header;
+const buttonMob = document.querySelector('.mob_zapis');
+const krest = container.querySelector('.krest');
+const popup = container.querySelector('.os_popup')
+const popupButton = popup.querySelector('button')
+
+buttonMob.addEventListener('click',() =>{
+    console.log('ты пидр')
+popup.classList.remove('hidden')
+})
+krest.addEventListener('click',() =>{
+popup.classList.add('hidden')
 })
