@@ -4,7 +4,14 @@ body{
     font-family: 'Exo 2', sans-serif;
     color: #000000;
 }
-
+a{
+    color: inherit;
+    text-decoration:none
+}
+a:hover{
+    text-decoration: none;
+    color: inherit
+}
 .center{
     text-align: center;
     margin: 0 auto;
@@ -253,6 +260,10 @@ height: 40px;
 
 margin: 50px auto;
 }
+.our_doctors img{
+    max-width: 100%;
+    height: 167px;
+}
 
 .header_info a{
 color: #0175BD;
@@ -291,6 +302,10 @@ font-size: 16px;
 .map{
     width:100%;
     margin-top: 25px;
+}
+
+.popular_items img{
+    height: 150px;
 }
 
 .relative{
@@ -395,7 +410,7 @@ font-size: 20px;
 color: rgba(82, 82, 82, 0.75);
 }
 .popular_items .row{
-align-items:flex-end;
+align-items:flex-start;
 }
 
 
