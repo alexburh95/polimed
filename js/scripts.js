@@ -53,7 +53,7 @@ var swiper = new Swiper(".mySwipermob2", {
       slidesPerView: 3,
       spaceBetween: 20
     },
-    420: {
+    400: {
       slidesPerView: 2,
       spaceBetween: 20
     },
