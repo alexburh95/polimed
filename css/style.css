@@ -447,6 +447,7 @@ box-sizing: border-box;
 border-radius: 6px;
 width: 80%;
 height:50px;
+color: #ffffff;
 }
 
 .checbox_row{
@@ -1189,5 +1190,35 @@ margin-right: 30px;
     }
     .hidden_img2 {
         top: 80%;
+    }
+    .contact_form button{
+        width: 100%;
+    }
+
+    .our_doctors img{
+        max-width: 100%;
+    }
+    img{
+        max-width: 100%;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+    .tabs_question {
+        font-size: 16px;
+    }
+    .doctors_title {
+    font-size: 30px;}
+
+    .about_center h3 {
+        font-size: 15px;
+    }
+    .swiper_title {
+        font-size: 25px;
+    }
+    .swiper_description {
+        font-size: 17px;
+        max-width: 55%;
     }
 }
