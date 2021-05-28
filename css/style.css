@@ -143,6 +143,12 @@ margin-top: 15px;
 z-index: 2;
 }
 
+img{
+    max-width: 100%;
+}
+.doctors_row .row{
+    align-items: flex-end;
+}
 .swiper_description{
     font-weight: 200;
 font-size: 24px;
@@ -154,6 +160,10 @@ color: #FFFFFF;
 max-width: 300px;
 margin-left: 43px;
 margin-top: 40px;
+}
+
+.serve_doctors img{
+    max-width: 100%;
 }
 
 .swiper_description_container{
